@@ -1,0 +1,66 @@
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: rgba(1, 9, 39, 0.786);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+}
+.logo{
+    color: rgb(222, 238, 159);
+    padding-left: 50px;
+    font-weight: bold;
+    font-family: fantasy;
+    font-size:200%;
+
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+    color:rgb(222, 238, 159);
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+p{
+    display: flex;
+    font-size: 100%;
+}
+
+p.active{
+    color:rgb(222, 238, 159);
+    text-decoration: underline;
+}
+
+
+
+/* @media screen and (max-width: 320px) {
+    .logo{
+        font-size: 100%;
+    }
+  } */
+
+
+  /* For Phone */
+  @media screen and (max-width: 768px) { 
+    .logo{
+        font-size: 110%;
+        padding-left: 20px;
+    }
+    p{
+        font-size: 60%;
+    }
+    .link{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+  }

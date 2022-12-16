@@ -1,0 +1,80 @@
+.home{
+    background-color: rgb(38, 70, 70);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/Cavern\ Background\ Blue.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    font-family: fantasy;
+    max-width: 800px;
+    width: 95%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.712);
+    background-color: aliceblue;
+}
+
+table thead tr {
+    background-color: rgba(1, 9, 39, 0.848);
+    color: rgb(222, 238, 159);
+    font-size: large;
+    text-align: left;
+    height: 35px;
+}
+
+table th, table td {
+    padding: 12px, 15px;
+    
+}
+
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    font-size: 100%;
+}
+
+table tbody tr:nth-of-type(even){
+    background-color: rgb(245, 250, 226);
+    
+}
+
+table tbody tr:last-of-type{
+    border-bottom: 2px solid rgb(2, 12, 54);
+    
+}
+tbody td {
+    text-align: left;
+}
+
+tbody th {
+    padding-right: 30px;
+    
+}
+
+.first{
+    padding-left: 10px;
+}
+
+/* For Phone */
+@media screen and (max-width: 768px) { 
+    table thead tr {
+        font-size: 100%;
+    }
+    table tbody tr {
+        font-size: 30%;
+    }
+    button{
+        height: 10px;
+        width: 3px;
+        font-size: 5px;
+        text-align: center;
+    }
+
+
+  }

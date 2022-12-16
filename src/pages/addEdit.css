@@ -1,0 +1,52 @@
+.addEdit{
+    background-color: rgb(38, 70, 70);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/Cavern\ Background\ Blue.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.addEditForm{
+    background-color:rgba(1, 9, 39, 0.786);
+    border-radius: 4px;
+    margin: auto;
+    padding: 15px;
+    max-width: 400px;
+    align-content: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.712);
+}
+
+input {
+    width: 100%;
+    background-color:aliceblue;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(222, 238, 159);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+
+label{
+    color: rgb(222, 238, 159);
+    font-family: fantasy;
+    font-size:large;
+}
+
+/* .submit{
+    margin-top: 20px;
+    width: 30%;
+    background-color: rgb(222, 238, 159);
+    font-weight: bold;
+} */
+
+@media screen and (max-width: 768px) { 
+    .addEditForm{
+        width: 95%;
+    }
+  }
